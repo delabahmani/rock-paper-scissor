@@ -21,7 +21,7 @@ const Card: React.FC<CardProps> = ({ choice }) => {
 
   return (
     <div>
-      {choice && <img src={getImageUrl(choice)} alt={choice} style={{width: 100, height: 100 }} />}
+      {choice && <img src={getImageUrl(choice)} alt={choice} style={{width: 150, height: 150 }} />}
     </div>
   )
 };

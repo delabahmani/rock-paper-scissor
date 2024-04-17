@@ -6,7 +6,11 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = ({ onClick, children }) => {
-  return <button onClick={onClick}>{children}</button>
-}
+  return (
+    <button onClick={onClick} className="btn btn-primary mx-5 my-8">
+      {children}
+    </button>
+  );
+};
 
 export default Button;

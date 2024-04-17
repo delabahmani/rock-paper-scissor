@@ -5,7 +5,7 @@ import Header from "@/components/Header";
 
 const Page: React.FC = () => {
   return (
-    <div>
+    <div className="bg-base-100">
       <Header />
       <Game />
     </div>
